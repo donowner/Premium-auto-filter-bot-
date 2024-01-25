@@ -1,7 +1,7 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/donowner/Premium-auto-filter-bot-/blob/main/start.sh /Premium-auto-filter-bot-
+  git clone https://github.com/donowner/Premium-auto-filter-bot- /Premium-auto-filter-bot-
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /Premium-auto-filter-bot-
