@@ -22,6 +22,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 PICS = (environ.get('PICS', 'https://graph.org/file/4079f214579cf5d1fe5c9.jpg https://graph.org/file/ee8a7ef66f91665b2d2b8.jpg')).split()
 CHNL_LNK =  environ.get('CHNL_LNK', 'https://t.me/movies_x_store')
 GRP_LNK =  environ.get('GRP_LNK', 'https://t.me/movies_x_hub')
+CHNL_LNKK =  environ.get('CHNL_LNKK', 'https://t.me/FILMY_FUNDAS')
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
